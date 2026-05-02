@@ -1,8 +1,10 @@
 # Hi, I'm Daniel Dewhurst
 
-I'm a developer in England working with Laravel, JavaScript, Go, TypeScript, Bun, CLI tooling, and AI-assisted workflows.
+I'm a developer based in Chester, UK, working with Laravel, JavaScript, Go, TypeScript, Bun, CLI tooling, and AI-assisted workflows.
 
-I currently work in R&D at AVRillo and build practical tools for local development, deployment, notes, search, and automation.
+I'm currently Lead AI Solutions Engineer at AVRillo, building practical tools for local development, deployment, notes, search, and automation.
+
+Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 
 ## What I build
 
@@ -27,4 +29,4 @@ I currently work in R&D at AVRillo and build practical tools for local developme
 
 ---
 
-You can find more of my work in my repositories.
+You can find more of my work in my repositories and under the Forjd organization.
