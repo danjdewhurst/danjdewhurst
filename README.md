@@ -15,10 +15,14 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 
 ## Featured projects
 
-- [`envio`](https://github.com/danjdewhurst/envio) - Generate and manage local Docker development environments for web applications
-- [`jot-cli`](https://github.com/danjdewhurst/jot-cli) - Context-aware notes with tagging, search, a TUI, and AI agent support
-- [`bun-deploy-cli`](https://github.com/danjdewhurst/bun-deploy-cli) - Manage Ubuntu servers and deploy Bun.js applications with Git
-- [`go-toc`](https://github.com/danjdewhurst/go-toc) - Fast Markdown table-of-contents generation in Go
+<!-- featured-projects:start -->
+- [`forjd/minimap`](https://github.com/forjd/minimap) - Deterministic repository context compiler for coding agents
+- [`forjd/ctx`](https://github.com/forjd/ctx) - Local context packs for coding agents
+- [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
+- [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
+- [`forjd/signal-box`](https://github.com/forjd/signal-box) - Local-first AI inbox for developer context, project memory, and shipping artefacts.
+- [`forjd/aid`](https://github.com/forjd/aid) - Local memory CLI for coding agents and developers working inside Git repositories.
+<!-- featured-projects:end -->
 
 ## Currently interested in
 
