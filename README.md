@@ -1,6 +1,6 @@
 # Hi, I'm Daniel Dewhurst
 
-I'm a Laravel and AI enthusiast based in Chester, UK. I'm a long-time Claude user, recent Codex user, and I work with JavaScript, Go, TypeScript, Bun, CLI tooling, and AI-assisted workflows.
+I'm a Laravel and AI enthusiast based in Chester, UK. I'm a long-time Claude user, recent Codex user, and I work with PHP, JavaScript, Go, TypeScript, Bun, MySQL, Redis, AWS, Linux, CLI tooling, and AI-assisted workflows.
 
 I'm currently Lead AI Solutions Engineer at AVRillo, where I'm helping build a property conveyancing platform from the ground up, informed by around 30 years of legacy software and domain knowledge. I use AI to accelerate day-to-day development and wider business workflows, and I'm implementing AI features in the new system to automate complex conveyancing tasks.
 
@@ -10,7 +10,7 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 
 - Software that turns legacy domain knowledge into modern product workflows
 - CLI-first utilities for local environments, deployment, notes, and project workflows
-- Lightweight apps and services using Bun, SQLite, TypeScript, Go, and Laravel
+- Lightweight apps and services using Laravel, PHP, Bun, TypeScript, Go, MySQL, Redis, and SQLite
 - AI-assisted automation for debugging, search, monitoring, and developer productivity
 
 ## Featured projects
