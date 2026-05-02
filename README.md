@@ -1,6 +1,6 @@
 # Hi, I'm Daniel Dewhurst
 
-I'm a developer based in Chester, UK, working with Laravel, JavaScript, Go, TypeScript, Bun, CLI tooling, and AI-assisted workflows.
+I'm a Laravel and AI enthusiast based in Chester, UK. I'm a long-time Claude user, recent Codex user, and I work with JavaScript, Go, TypeScript, Bun, CLI tooling, and AI-assisted workflows.
 
 I'm currently Lead AI Solutions Engineer at AVRillo, building practical tools for local development, deployment, notes, search, and automation.
 
