@@ -17,11 +17,11 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 
 <!-- featured-projects:start -->
 - [`forjd/minimap`](https://github.com/forjd/minimap) - Deterministic repository context compiler for coding agents
-- [`forjd/ctx`](https://github.com/forjd/ctx) - Local context packs for coding agents
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
+- [`forjd/ctx`](https://github.com/forjd/ctx) - Local context packs for coding agents
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
-- [`forjd/signal-box`](https://github.com/forjd/signal-box) - Local-first AI inbox for developer context, project memory, and shipping artefacts.
 - [`forjd/aid`](https://github.com/forjd/aid) - Local memory CLI for coding agents and developers working inside Git repositories.
+- [`forjd/signal-box`](https://github.com/forjd/signal-box) - Local-first AI inbox for developer context, project memory, and shipping artefacts.
 <!-- featured-projects:end -->
 
 ## Currently interested in
