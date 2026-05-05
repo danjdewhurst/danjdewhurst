@@ -17,11 +17,11 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 
 <!-- featured-projects:start -->
 - [`forjd/seg-lcd-rust`](https://github.com/forjd/seg-lcd-rust) - A Rust seven-segment LCD simulator with terminal, SVG, and native GUI renderers.
+- [`forjd/retro-pet-rust`](https://github.com/forjd/retro-pet-rust) - A native Rust desktop virtual pet inspired by classic handheld companions.
 - [`forjd/minimap`](https://github.com/forjd/minimap) - Generate deterministic AGENTS.md and CLAUDE.md context blocks for coding agents
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
 - [`forjd/ctx`](https://github.com/forjd/ctx) - Local context packs for coding agents
-- [`forjd/aid`](https://github.com/forjd/aid) - Local memory CLI for coding agents and developers working inside Git repositories.
 <!-- featured-projects:end -->
 
 ## Currently interested in
