@@ -19,8 +19,8 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
-- [`forjd/pi-clean`](https://github.com/forjd/pi-clean) - A cautious cleanup script for removing pi data, project-local .pi directories, and pi-managed global npm packages.
 - [`forjd/aid`](https://github.com/forjd/aid) - Local memory CLI for coding agents and developers working inside Git repositories.
+- [`forjd/pi-clean`](https://github.com/forjd/pi-clean) - A cautious cleanup script for removing pi data, project-local .pi directories, and pi-managed global npm packages.
 - [`forjd/seg-lcd-rust`](https://github.com/forjd/seg-lcd-rust) - A Rust seven-segment LCD simulator with terminal, SVG, and native GUI renderers.
 <!-- featured-projects:end -->
 
