@@ -16,12 +16,12 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 ## Featured projects
 
 <!-- featured-projects:start -->
+- [`forjd/runtrail`](https://github.com/forjd/runtrail) - Portable event trails for agentic dev workflows: commands, repo diffs, browser QA, CI failures, and repair prompts.
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
 - [`forjd/agent-skills`](https://github.com/forjd/agent-skills) - Agent skills for GitHub repo hardening, PR creation, and review actioning - portable capabilities for any skills-compatible AI agent
 - [`forjd/brain`](https://github.com/forjd/brain) - Local-first memory layer for coding agents that turns Codex and Claude session logs into searchable Markdown context.
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
-- [`forjd/aid`](https://github.com/forjd/aid) - Local memory CLI for coding agents and developers working inside Git repositories.
 <!-- featured-projects:end -->
 
 ## Currently interested in
