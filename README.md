@@ -16,12 +16,12 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 ## Featured projects
 
 <!-- featured-projects:start -->
+- [`forjd/pi-clean`](https://github.com/forjd/pi-clean) - A cautious cleanup script for removing pi data, project-local .pi directories, and pi-managed global npm packages.
+- [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
-- [`forjd/forjd-pi`](https://github.com/forjd/forjd-pi) - Forjd extension pack for the pi coding agent
-- [`forjd/runtrail`](https://github.com/forjd/runtrail) - Portable event trails for agentic dev workflows: commands, repo diffs, browser QA, CI failures, and repair prompts.
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
-- [`forjd/agent-skills`](https://github.com/forjd/agent-skills) - Agent skills for GitHub repo hardening, PR creation, and review actioning - portable capabilities for any skills-compatible AI agent
+- [`forjd/runtrail`](https://github.com/forjd/runtrail) - Portable event trails for agentic dev workflows: commands, repo diffs, browser QA, CI failures, and repair prompts.
 <!-- featured-projects:end -->
 
 ## Currently interested in
