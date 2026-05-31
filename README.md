@@ -21,7 +21,7 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/pi-clean`](https://github.com/forjd/pi-clean) - A cautious cleanup script for removing pi data, project-local .pi directories, and pi-managed global npm packages.
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
-- [`forjd/runtrail`](https://github.com/forjd/runtrail) - Portable event trails for agentic dev workflows: commands, repo diffs, browser QA, CI failures, and repair prompts.
+- [`forjd/aid`](https://github.com/forjd/aid) - Local memory CLI for coding agents and developers working inside Git repositories.
 <!-- featured-projects:end -->
 
 ## Currently interested in
