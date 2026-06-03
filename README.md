@@ -17,8 +17,8 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 
 <!-- featured-projects:start -->
 - [`forjd/filmlook`](https://github.com/forjd/filmlook) - Rust film-emulation engine with a Tauri desktop app, deterministic CLI, and data-driven JSON recipes.
-- [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
+- [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/pi-clean`](https://github.com/forjd/pi-clean) - A cautious cleanup script for removing pi data, project-local .pi directories, and pi-managed global npm packages.
 - [`forjd/aid`](https://github.com/forjd/aid) - Local memory CLI for coding agents and developers working inside Git repositories.
