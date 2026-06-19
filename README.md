@@ -16,12 +16,12 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 ## Featured projects
 
 <!-- featured-projects:start -->
-- [`forjd/film-chef`](https://github.com/forjd/film-chef) - Film emulation photo editor for macOS. Native and fast.
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
-- [`forjd/tilezo`](https://github.com/forjd/tilezo) - A Bun and TypeScript multiplayer prototype for isometric social rooms.
+- [`forjd/film-chef`](https://github.com/forjd/film-chef) - Film emulation photo editor for macOS. Native and fast.
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
+- [`forjd/tilezo`](https://github.com/forjd/tilezo) - A Bun and TypeScript multiplayer prototype for isometric social rooms.
 <!-- featured-projects:end -->
 
 ## Currently interested in
