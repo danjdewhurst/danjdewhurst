@@ -17,9 +17,9 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 
 <!-- featured-projects:start -->
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
-- [`forjd/agentprov`](https://github.com/forjd/agentprov) - Signed, tamper-evident provenance records for AI agent runs
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
+- [`forjd/agentprov`](https://github.com/forjd/agentprov) - Signed, tamper-evident provenance records for AI agent runs
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
 - [`forjd/film-chef`](https://github.com/forjd/film-chef) - Film emulation photo editor for macOS. Native and fast.
 <!-- featured-projects:end -->
