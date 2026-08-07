@@ -20,8 +20,8 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
-- [`forjd/mythos-delegation-skill`](https://github.com/forjd/mythos-delegation-skill) - Agent Skill for Claude Code & AI coding agents: a decision guide for when to delegate to subagents, parallelize agents, or orchestrate multi-agent workflows - and when to just work inline. Install via skills.sh.
 - [`forjd/aid`](https://github.com/forjd/aid) - Local memory CLI for coding agents and developers working inside Git repositories.
+- [`forjd/mythos-delegation-skill`](https://github.com/forjd/mythos-delegation-skill) - Agent Skill for Claude Code & AI coding agents: a decision guide for when to delegate to subagents, parallelize agents, or orchestrate multi-agent workflows - and when to just work inline. Install via skills.sh.
 <!-- featured-projects:end -->
 
 ## Currently interested in
