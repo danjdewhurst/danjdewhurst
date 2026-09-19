@@ -6,6 +6,8 @@ const END = "<!-- featured-projects:end -->";
 const OWNERS = ["forjd", "danjdewhurst"];
 const MAX_PROJECTS = 6;
 const EXCLUDED_REPOS = new Set(["danjdewhurst/danjdewhurst"]);
+// Repos that always get a featured slot, ahead of the scored ordering.
+const PINNED_REPOS = new Set(["danjdewhurst/story-skills"]);
 
 const token = process.env.GITHUB_TOKEN;
 
@@ -87,15 +89,20 @@ const candidateRepos = ownerRepos
   .filter((repo) => !EXCLUDED_REPOS.has(repo.full_name))
   .filter((repo) => repo.description);
 
-const forjdRepos = candidateRepos
+const isPinned = (repo) => PINNED_REPOS.has(repo.full_name.toLowerCase());
+
+const pinnedRepos = candidateRepos.filter(isPinned);
+const unpinnedRepos = candidateRepos.filter((repo) => !isPinned(repo));
+
+const forjdRepos = unpinnedRepos
   .filter((repo) => repo.owner.login.toLowerCase() === "forjd")
   .sort((a, b) => repoScore(b) - repoScore(a));
 
-const personalRepos = candidateRepos
+const personalRepos = unpinnedRepos
   .filter((repo) => repo.owner.login.toLowerCase() !== "forjd")
   .sort((a, b) => repoScore(b) - repoScore(a));
 
-const featuredRepos = [...forjdRepos, ...personalRepos].slice(0, MAX_PROJECTS);
+const featuredRepos = [...pinnedRepos, ...forjdRepos, ...personalRepos].slice(0, MAX_PROJECTS);
 
 if (featuredRepos.length === 0) {
   throw new Error("No featured repositories found");
