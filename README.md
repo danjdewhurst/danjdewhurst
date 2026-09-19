@@ -1,17 +1,21 @@
 # Hi, I'm Daniel Dewhurst
 
-I'm a Laravel and AI enthusiast based in Chester, UK. I'm a long-time Claude user, recent Codex user, and I work with PHP, JavaScript, Go, TypeScript, Bun, MySQL, Redis, AWS, Linux, CLI tooling, and AI-assisted workflows.
+I'm a Lead AI Solutions Engineer at AVRillo in Chester, UK, building a property conveyancing platform from the ground up. Long-time Claude user, recent Codex convert — I work in PHP, TypeScript, Go and Bun, and I build CLI-first tools for AI-assisted development.
 
-I'm currently Lead AI Solutions Engineer at AVRillo, where I'm helping build a property conveyancing platform from the ground up, informed by around 30 years of legacy software and domain knowledge. I use AI to accelerate day-to-day development and wider business workflows, and I'm implementing AI features in the new system to automate complex conveyancing tasks.
+Most of my recent open source work lives under [`Forjd`](https://github.com/forjd): agent skills and CLI tooling.
 
-Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
+## Flagship: Story Skills
+
+[**story-skills**](https://github.com/danjdewhurst/story-skills) — Agent Skills for planning, tracking, and drafting fiction in markdown, with a deterministic continuity engine that catches dead characters walking, payoffs landing before their setups, and unfired Chekhov guns. Installable as a Codex or Claude Code plugin.
+
+I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/christmas-childrens-story) and [*The Cormorant Tide*](https://github.com/danjdewhurst/the-cormorant-tide) (a murder mystery set in a fictional Sussex harbour town) are complete stories written with it.
 
 ## What I build
 
-- Software that turns legacy domain knowledge into modern product workflows
-- CLI-first utilities for local environments, deployment, notes, and project workflows
-- Lightweight apps and services using Laravel, PHP, Bun, TypeScript, Go, MySQL, Redis, and SQLite
-- AI-assisted automation for debugging, search, monitoring, and developer productivity
+- Agent skills and plugins for Claude Code, Codex, and friends
+- CLI-first utilities for local environments, deployment, notes, and git workflows
+- Local-first apps on Bun, TypeScript, Go, and SQLite
+- Fiction written with AI agents, checked by deterministic tooling
 
 ## Featured projects
 
@@ -27,10 +31,10 @@ Most of my recent open source work is under [`Forjd`](https://github.com/forjd).
 ## Currently interested in
 
 - AI agents for everyday developer workflows
+- Deterministic checks around non-deterministic models
 - Fast, focused CLI tools
 - Local-first software
-- Simple deployment and operations tooling
 
 ---
 
-You can find more of my work in my repositories and under the Forjd organization.
+More of my work is in my repositories and under the [Forjd](https://github.com/forjd) organization.
