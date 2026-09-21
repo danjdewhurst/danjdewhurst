@@ -22,10 +22,10 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 <!-- featured-projects:start -->
 - [`danjdewhurst/story-skills`](https://github.com/danjdewhurst/story-skills) - Agent Skills for end-to-end story writing in markdown, packaged as Codex and Claude Code plugins.
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
+- [`forjd/.github`](https://github.com/forjd/.github) - Organization-wide defaults for forjd: community health files and org profile.
 - [`forjd/film-chef`](https://github.com/forjd/film-chef) - Film emulation photo editor for macOS.
 - [`forjd/retro-pet-rust`](https://github.com/forjd/retro-pet-rust) - A native Rust desktop virtual pet inspired by classic handheld companions.
 - [`forjd/pi-pr-ally`](https://github.com/forjd/pi-pr-ally) - GitHub PR + CI copilot extension package for pi
-- [`forjd/homebrew-tap`](https://github.com/forjd/homebrew-tap) - Homebrew formulae for forjd tools
 <!-- featured-projects:end -->
 
 ## Currently interested in
