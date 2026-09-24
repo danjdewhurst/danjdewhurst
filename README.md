@@ -25,7 +25,7 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 - [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/.github`](https://github.com/forjd/.github) - Organization-wide defaults for forjd: community health files and org profile.
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
-- [`forjd/film-chef`](https://github.com/forjd/film-chef) - Film emulation photo editor for macOS.
+- [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
 <!-- featured-projects:end -->
 
 ## Currently interested in
