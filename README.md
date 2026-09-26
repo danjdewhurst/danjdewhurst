@@ -22,8 +22,8 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 <!-- featured-projects:start -->
 - [`danjdewhurst/story-skills`](https://github.com/danjdewhurst/story-skills) - Agent Skills for end-to-end story writing in markdown, packaged as Codex and Claude Code plugins.
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
-- [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/.github`](https://github.com/forjd/.github) - Organization-wide defaults for forjd: community health files and org profile.
+- [`forjd/browse`](https://github.com/forjd/browse) - Fast CLI for browser automation - Playwright + stealth behind a persistent daemon
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - A shareable pi extension for managing a repo-local TODO.md file.
 <!-- featured-projects:end -->
