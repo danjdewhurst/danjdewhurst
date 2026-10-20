@@ -23,9 +23,9 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 - [`danjdewhurst/story-skills`](https://github.com/danjdewhurst/story-skills) - Agent Skills for end-to-end story writing in markdown, packaged as Codex and Claude Code plugins.
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
 - [`forjd/.github`](https://github.com/forjd/.github) - Organization-wide defaults for forjd: community health files and org profile.
+- [`forjd/browse`](https://github.com/forjd/browse) - Browser automation CLI for AI agents and QA: Playwright with stealth, run behind a persistent daemon.
 - [`forjd/nextwatch`](https://github.com/forjd/nextwatch) - Personal movie and TV recommendation engine built on a local copy of TMDB: content similarity, collaborative filtering and a learned ranker.
 - [`forjd/film-chef`](https://github.com/forjd/film-chef) - Native macOS film-emulation photo editor built with SwiftUI and Core Image, driven by editable JSON recipes.
-- [`forjd/browse`](https://github.com/forjd/browse) - Browser automation CLI for AI agents and QA: Playwright with stealth, run behind a persistent daemon.
 <!-- featured-projects:end -->
 
 ## Currently interested in
