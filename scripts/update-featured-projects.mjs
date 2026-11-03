@@ -1,13 +1,18 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 
 const README_PATH = new URL("../README.md", import.meta.url);
 const START = "<!-- featured-projects:start -->";
 const END = "<!-- featured-projects:end -->";
 const OWNERS = ["forjd", "danjdewhurst"];
 const MAX_PROJECTS = 6;
-const EXCLUDED_REPOS = new Set(["danjdewhurst/danjdewhurst"]);
+// Set entries are lowercased so that comparisons are case-insensitive.
+const lowercaseSet = (values) => new Set(values.map((value) => value.toLowerCase()));
+const EXCLUDED_REPOS = lowercaseSet(["danjdewhurst/danjdewhurst"]);
+// Repo names to skip for every owner, such as org profile and community health repos.
+const EXCLUDED_REPO_NAMES = lowercaseSet([".github"]);
 // Repos that always get a featured slot, ahead of the scored ordering.
-const PINNED_REPOS = new Set(["danjdewhurst/story-skills"]);
+const PINNED_REPOS = lowercaseSet(["danjdewhurst/story-skills"]);
 
 const token = process.env.GITHUB_TOKEN;
 
@@ -80,37 +85,47 @@ function replaceFeaturedProjects(readme, projectsMarkdown) {
   ].join("");
 }
 
-const ownerRepos = await Promise.all(OWNERS.map(fetchRepos));
-const candidateRepos = ownerRepos
-  .flat()
-  .filter((repo) => !repo.fork)
-  .filter((repo) => !repo.archived)
-  .filter((repo) => !repo.private)
-  .filter((repo) => !EXCLUDED_REPOS.has(repo.full_name))
-  .filter((repo) => repo.description);
+export function selectFeaturedRepos(repos) {
+  const candidateRepos = repos
+    .filter((repo) => !repo.fork)
+    .filter((repo) => !repo.archived)
+    .filter((repo) => !repo.private)
+    .filter((repo) => !EXCLUDED_REPOS.has(repo.full_name.toLowerCase()))
+    .filter((repo) => !EXCLUDED_REPO_NAMES.has(repo.name.toLowerCase()))
+    .filter((repo) => repo.description);
 
-const isPinned = (repo) => PINNED_REPOS.has(repo.full_name.toLowerCase());
+  const isPinned = (repo) => PINNED_REPOS.has(repo.full_name.toLowerCase());
 
-const pinnedRepos = candidateRepos.filter(isPinned);
-const unpinnedRepos = candidateRepos.filter((repo) => !isPinned(repo));
+  const pinnedRepos = candidateRepos.filter(isPinned);
+  const unpinnedRepos = candidateRepos.filter((repo) => !isPinned(repo));
 
-const forjdRepos = unpinnedRepos
-  .filter((repo) => repo.owner.login.toLowerCase() === "forjd")
-  .sort((a, b) => repoScore(b) - repoScore(a));
+  const forjdRepos = unpinnedRepos
+    .filter((repo) => repo.owner.login.toLowerCase() === "forjd")
+    .sort((a, b) => repoScore(b) - repoScore(a));
 
-const personalRepos = unpinnedRepos
-  .filter((repo) => repo.owner.login.toLowerCase() !== "forjd")
-  .sort((a, b) => repoScore(b) - repoScore(a));
+  const personalRepos = unpinnedRepos
+    .filter((repo) => repo.owner.login.toLowerCase() !== "forjd")
+    .sort((a, b) => repoScore(b) - repoScore(a));
 
-const featuredRepos = [...pinnedRepos, ...forjdRepos, ...personalRepos].slice(0, MAX_PROJECTS);
-
-if (featuredRepos.length === 0) {
-  throw new Error("No featured repositories found");
+  return [...pinnedRepos, ...forjdRepos, ...personalRepos].slice(0, MAX_PROJECTS);
 }
 
-const readme = await readFile(README_PATH, "utf8");
-const nextReadme = replaceFeaturedProjects(readme, renderProjects(featuredRepos));
+async function main() {
+  const ownerRepos = await Promise.all(OWNERS.map(fetchRepos));
+  const featuredRepos = selectFeaturedRepos(ownerRepos.flat());
 
-if (nextReadme !== readme) {
-  await writeFile(README_PATH, nextReadme);
+  if (featuredRepos.length === 0) {
+    throw new Error("No featured repositories found");
+  }
+
+  const readme = await readFile(README_PATH, "utf8");
+  const nextReadme = replaceFeaturedProjects(readme, renderProjects(featuredRepos));
+
+  if (nextReadme !== readme) {
+    await writeFile(README_PATH, nextReadme);
+  }
+}
+
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  await main();
 }
