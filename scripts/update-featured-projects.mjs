@@ -6,6 +6,8 @@ const END = "<!-- featured-projects:end -->";
 const OWNERS = ["forjd", "danjdewhurst"];
 const MAX_PROJECTS = 6;
 const EXCLUDED_REPOS = new Set(["danjdewhurst/danjdewhurst"]);
+// Repo names to skip for every owner, such as org profile and community health repos.
+const EXCLUDED_REPO_NAMES = new Set([".github"]);
 // Repos that always get a featured slot, ahead of the scored ordering.
 const PINNED_REPOS = new Set(["danjdewhurst/story-skills"]);
 
@@ -86,7 +88,8 @@ const candidateRepos = ownerRepos
   .filter((repo) => !repo.fork)
   .filter((repo) => !repo.archived)
   .filter((repo) => !repo.private)
-  .filter((repo) => !EXCLUDED_REPOS.has(repo.full_name))
+  .filter((repo) => !EXCLUDED_REPOS.has(repo.full_name.toLowerCase()))
+  .filter((repo) => !EXCLUDED_REPO_NAMES.has(repo.name.toLowerCase()))
   .filter((repo) => repo.description);
 
 const isPinned = (repo) => PINNED_REPOS.has(repo.full_name.toLowerCase());

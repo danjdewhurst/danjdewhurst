@@ -22,9 +22,9 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 <!-- featured-projects:start -->
 - [`danjdewhurst/story-skills`](https://github.com/danjdewhurst/story-skills) - Agent Skills for end-to-end story writing in markdown, packaged as Codex and Claude Code plugins.
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
-- [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/trending-repos`](https://github.com/forjd/trending-repos) - A Cloudflare Worker that scrapes GitHub trending every 4 hours and tracks how many days each repo has trended
-- [`forjd/.github`](https://github.com/forjd/.github) - Organization-wide defaults for forjd: community health files and org profile.
+- [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
+- [`forjd/homebrew-tap`](https://github.com/forjd/homebrew-tap) - Homebrew formulae for forjd tools: aid, browse and pi-clean.
 - [`forjd/filmlook`](https://github.com/forjd/filmlook) - Rust film-emulation engine with a Tauri desktop app, deterministic CLI, and data-driven JSON recipes.
 <!-- featured-projects:end -->
 
