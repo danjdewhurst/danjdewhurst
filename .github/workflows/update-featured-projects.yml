@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Run tests
+        run: node --test
+
       - name: Update README
         run: node scripts/update-featured-projects.mjs
         env:
