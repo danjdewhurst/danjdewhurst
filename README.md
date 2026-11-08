@@ -23,8 +23,8 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 - [`danjdewhurst/story-skills`](https://github.com/danjdewhurst/story-skills) - Agent Skills for end-to-end story writing in markdown, packaged as Codex and Claude Code plugins.
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
 - [`forjd/trending-repos`](https://github.com/forjd/trending-repos) - A Cloudflare Worker that scrapes GitHub trending every 4 hours and tracks how many days each repo has trended
-- [`forjd/startup-ideation-skills`](https://github.com/forjd/startup-ideation-skills) - Open source agent skills for evidence-first startup ideation: capture pains, grill assumptions, design validation tests, synthesise interviews and scope a narrow v1.
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
+- [`forjd/startup-ideation-skills`](https://github.com/forjd/startup-ideation-skills) - Open source agent skills for evidence-first startup ideation: capture pains, grill assumptions, design validation tests, synthesise interviews and scope a narrow v1.
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - Pi extension that gives the agent a structured tool for managing a repo-local TODO.md file.
 <!-- featured-projects:end -->
 
