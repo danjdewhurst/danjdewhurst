@@ -25,7 +25,7 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - Pi extension that gives the agent a structured tool for managing a repo-local TODO.md file.
 - [`forjd/startup-ideation-skills`](https://github.com/forjd/startup-ideation-skills) - Open source agent skills for evidence-first startup ideation: capture pains, grill assumptions, design validation tests, synthesise interviews and scope a narrow v1.
-- [`forjd/trending-repos`](https://github.com/forjd/trending-repos) - A Cloudflare Worker that scrapes GitHub trending every 4 hours and tracks how many days each repo has trended
+- [`forjd/filmlook`](https://github.com/forjd/filmlook) - Rust film-emulation engine with a Tauri desktop app, deterministic CLI, and data-driven JSON recipes.
 <!-- featured-projects:end -->
 
 ## Currently interested in
