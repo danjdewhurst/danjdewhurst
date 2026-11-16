@@ -22,10 +22,10 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 <!-- featured-projects:start -->
 - [`danjdewhurst/story-skills`](https://github.com/danjdewhurst/story-skills) - Agent Skills for end-to-end story writing in markdown, packaged as Codex and Claude Code plugins.
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
-- [`forjd/brain`](https://github.com/forjd/brain) - Local-first memory for coding agents: turns Codex and Claude Code session logs into SQLite events and searchable Markdown notes.
+- [`forjd/nextwatch`](https://github.com/forjd/nextwatch) - Personal movie and TV recommendation engine built on a local copy of TMDB: content similarity, collaborative filtering and a learned ranker.
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - Pi extension that gives the agent a structured tool for managing a repo-local TODO.md file.
-- [`forjd/filmlook`](https://github.com/forjd/filmlook) - Rust film-emulation engine with a Tauri desktop app, deterministic CLI, and data-driven JSON recipes.
+- [`forjd/brain`](https://github.com/forjd/brain) - Local-first memory for coding agents: turns Codex and Claude Code session logs into SQLite events and searchable Markdown notes.
 <!-- featured-projects:end -->
 
 ## Currently interested in
