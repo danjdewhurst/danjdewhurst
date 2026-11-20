@@ -24,8 +24,8 @@ I dogfood it: [*Pippa and the Borrowed Star*](https://github.com/danjdewhurst/ch
 - [`forjd/better-writing`](https://github.com/forjd/better-writing) - An agent skill for prose that sounds clear, specific, and human.
 - [`forjd/agenthint`](https://github.com/forjd/agenthint) - Detect AI agent runtimes so CLIs can choose agent-friendly output
 - [`forjd/pi-todo-md`](https://github.com/forjd/pi-todo-md) - Pi extension that gives the agent a structured tool for managing a repo-local TODO.md file.
-- [`forjd/nextwatch`](https://github.com/forjd/nextwatch) - Personal movie and TV recommendation engine built on a local copy of TMDB: content similarity, collaborative filtering and a learned ranker.
 - [`forjd/filmlook`](https://github.com/forjd/filmlook) - Rust film-emulation engine with a Tauri desktop app, deterministic CLI, and data-driven JSON recipes.
+- [`forjd/film-chef`](https://github.com/forjd/film-chef) - Native macOS film-emulation photo editor built with SwiftUI and Core Image, driven by editable JSON recipes.
 <!-- featured-projects:end -->
 
 ## Currently interested in
